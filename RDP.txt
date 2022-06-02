@@ -1,0 +1,129 @@
+AWS ----- Database Service ----> RDS
+ 
+what is Database ?
+
+perminent Storage :
+
+
+ FileSystem
+
+
+ Database ----> load data interms of tables
+
+Table : Rows & Columns
+
+   Rows : Records
+
+  Columns : Fields /Attributes
+
+
+ employee -------> Attributes 
+
+	eid,ename,addr,bsal,desig,all,mailid,cno
+
+ CRUID Operations
+
+ C - CREATE
+
+ R - RETRIVE
+
+ U - UPDATE 
+
+ I - INSERT
+
+ D - DELETE
+
+
+
+SQL , PLSQL
+
+
+ORACLE --  1521
+
+			scott/tiger   system/manager
+
+			global database :: XE
+
+MySQL ---  3306
+
+           root / root
+
+           local database : my own database
+           enter into database 
+           create tables
+===================================================================
+
+MySQL :
+
+
+ Table : column-name , column-datatype , size
+
+
+show databases;
+
+create database emp_db;
+
+use emp_db;
+
+show tables;
+
+Create table <table-name> (col-1 datatype-1(size),col-1 datatype-1(size),col-1 datatype-1(size));
+
+create table emp(eid int PRIMARY KEY,ename varchar(20),loc varchar(30),desig varchar(15));
+
+desc emp;
+
+insert into emp values(101,"James","USA","HR");
+insert into emp values(102,"Jack","USA","SRJRG");
+insert into emp values(103,"John","USA","SRJRG");
+insert into emp values(104,"Smith","USA","JRPRG");
+insert into emp values(105,"Peter","USA","JRPRG");
+insert into emp values(106,"Tom","USA","TL");
+
+select * from emp;
+
+select eid,ename,desig from emp;
+
+select * from emp where desig="SRPRG";
+
+select * from emp where eid=104;
+
+update emp set ename="Jackson",loc="UK" where eid=102;
+
+delete from emp where eid=105;
+
+delete from emp;
+
+drop table emp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

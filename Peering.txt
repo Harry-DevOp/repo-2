@@ -1,0 +1,41 @@
+VPC-1 : ohio
+
+CIDR Block : 30.50.0.0/16
+
+VPC ID : vpc-03bef7c5975d7f944
+
+Public IP : 3.12.120.2
+
+Private IP : 30.50.3.187
+
+VPC-2 : ohio
+
+CIDR Block : 10.30.0.0/16
+
+VPC ID : vpc-04e69161f391bbfe9
+
+Public IP : 18.117.156.244 
+
+Private IP : 10.30.0.129
+
+----------------------------------------------------------------------------
+
+VPC-1 : ohio
+
+CIDR Block : 30.50.0.0/16
+
+VPC ID : vpc-03bef7c5975d7f944
+
+Public IP : 3.12.120.2
+
+Private IP : 30.50.3.187
+
+VPC-3 : oregon
+
+CIDR Block : 20.40.0.0/16
+
+VPC ID : vpc-02cb047e3d4ee90d1
+
+Public IP : 34.212.109.46
+
+Private IP : 20.40.3.148
