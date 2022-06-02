@@ -1,0 +1,39 @@
+Basic Networking:
+
+1) VPC Creating
+2) SUbnets
+3) Internet Gateway(IGW)
+4) NAT Gatways
+5) Route Tables
+6) Security Groups(SG)
+7) Network Access Controle List(NACL)
+8) Keypairs
+
+9) EC2 Launching:
+     *Redhat Linux
+     *Ubuntu Linux
+     *AMI Linux 
+10) CustomAMI
+11) Peering Connections
+12) Elastic IPs
+13) Elastic Block Stores(EBS)
+      *Volumes
+      *Snapshots
+14) IAM User
+      *User with Console Access
+      *User with Programetic Access
+
+
+
+https://www.geeksforgeeks.org/launching-an-ec2-instance-using-aws-cli
+
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket-console.html
+
+
+https://aws.amazon.com/s3/storage-classes/?nc=sn&loc=3
+
+
+
+
+
